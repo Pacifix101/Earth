@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+    /* font-family: "Oswald" */
+  
+    
+    
+   
+}
+header nav p {
+    
+    font-size: 13vw;
+    width: 50%;
+    
+    padding-left:20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height:7vw;
+    width: 50vw;
+    
+    padding-right: 20px;
+    font-size: 1.5vw;
+    
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    
+    
+    color: white;
+}
+
+header div {
+    position: absolute; 
+    font-size: 20px;    
+    font-family: "Oswald";
+}
+
+.a {
+   position: absolute;
+   right: 5vw;
+   font-size: 5vh;
+   bottom: 10vh;
+    font-family: "Oswald";
+    
+}
+
+.preclass {
+    width: 100%;
+    height: 57vh;
+    position: relative;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,header {
+    height: 100vh;
+}
+
+section {
+    /* background-image:url(texture.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-color: red;
+    color: w  ;
+}
+
+
+
+
+
+button {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 9vw;
+    position: absolute;
+    right: 13vw;
+    bottom: 10vh;
+    font-size: 25px;
+    font-size:3vh;
+    border-radius: 50px;
+ }
+
+section > div {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    border-radius: 50px;
+background: linear-gradient(145deg, #11674d, #147a5b);
+box-shadow:  20px 20px 60px #106148,
+             -20px -20px 60px #168362;
+    display: flex;
+    height:80vh;
+    margin: 30vh 0px;
+}
+
+section nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 10vw;
+    gap:1vh;
+    
+    border-color: aqua;   
+    
+}
+section {
+    background-color: #137255;
+}
+
+section nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+background: #137255;
+box-shadow: inset 20px 20px 60px #106148,
+            inset -20px -20px 60px #168362;
+    width: 5vw;
+    height: 15vh;
+    margin-top: 6vh ;
+    margin-left: 2vw;
+    font-size: 4vh;
+    text-decoration: none;
+    font-family: "Oswald";
+    color: black;
+}
+
+.container2 {
+    width: 80%;
+}
+
+.chead {
+    font-size: 8vh;
+    padding-left:3vw;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+    border-bottom: 4px solid;
+
+}
+
+section img {
+    height: 17vw;
+    
+    margin-left: 5vh;
+    border: 5px solid black;
+
+}
+
+.subcontainer {
+    display: flex;
+    margin-top: 8vh;
+    
+}
+
+.intrests {
+    font-size: 2vw;
+    padding-left: 4vw;
+}
+
+.content {
+    font-size: 1.5vw;
+    padding-left: 4vw;
+}
+
+.fcontainer1 { 
+    display: flex;
+    align-items: center;
+    font-size: 5vh;
+    width: 80%;
+    justify-content: center;
+    border-bottom: 2px solid;
+    border-color: white;
+    padding: 4vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    
+}
+
+.contacts {
+    width: 100%;
+    padding: 3vh 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald" ;
+    
+    
+
+
+    
+    
+}
+
+.fcontainer1 > p {
+    padding-right: 5vw;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+ 
+ footer a {
+    text-decoration: none;
+    color: white;
+ }
+
+ 
+.fcontainer2 {
+    width: 50%;
+    font-size: 4vh;
+    
+}
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6vh;
+    padding-top: 2vh;
+    border-bottom:2px solid;
+    font-family: "Oswald" ;
+    
+}
+
+.Credits {
+    text-align: center;
+    padding: 3vh;
+}
+
+.scontainer{
+    background-color: white;
+    border-radius: 30px;
+    min-width: 10vw;
+    
+    overflow: hidden;
+    
+  }
+  .scontainer p {
+      background-color: white;
+      font-family: "Oswald" ;
+      font-size: 4.5vh;
+      height: 80%;
+      color: black;
+    
+      
+  }
+  
+  #scroll {
+    animation: my-animation 2s linear infinite;
+  }
+  
+  @keyframes my-animation {
+      from {
+        
+        transform: translateX(100%);
+      }
+      to {
+       
+        transform: translateX(-100%);
+      }
+   }

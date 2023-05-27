@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+            /* border-style: dotted;        */
+     
+     
+  
+    
+     
+  
+}
+section {
+    background-color:darkslategray;
+}
+
+.heading {
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+.save  {
+    height: 10%;
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:x  ;
+    height: 12vh;
+    background-color:darkslategray;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    
+    padding-right: 20px;
+    font-size: 20px;
+    
+    
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-family: "Oswald"
+  
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    font-family: "Oswald";
+    font-size: 3rem;
+}
+
+.bike img {
+    height: 90vh;
+    width: 70%;
+    border-top: 5px solid;
+    padding-top: 20px;
+    
+}
+
+.bike {
+    text-align: center;
+    
+}
+
+.pg {
+    justify-content: center;    
+    font-family: "Oswald" ;
+   
+    font-size: 5rem;
+    align-items: end;
+    display: flex;
+}
+
+.pg p {
+    padding-bottom: 10px;
+}
+
+.ctext {
+    width: 60%;
+    border-color: aqua;
+    
+}
+
+.content {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    font-family: "Oswald" ;
+
+}
+
+.ctext p {
+    height: 40%;
+    font-size: 3vw;
+}
+
+.textc1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    width: 60%;
+    font-size: 1.5vw;
+    
+}
+
+.text1 p {
+    padding-left: 6vw;
+}
+
+.recycle img {
+    height: 90vh;
+    width: 70%;
+    border-top: 5px solid;
+    padding-top: 20px;
+    margin-top: 8vh;
+    
+}
+
+.recycle{
+    text-align: center;
+    
+}
+
+.empty {
+    height: 10vh;
+}
+
+.scontainer{
+  background-color: white;
+  border-radius: 30px;
+  min-width: 10vw;
+  
+  overflow: hidden;
+  
+}
+.scontainer p {
+    background-color: white;
+    font-family: "Oswald" ;
+    font-size: 4.5vh;
+    height: 80%;
+    color: black;
+  
+    
+}
+
+#scroll {
+  animation: my-animation 2s linear infinite;
+}
+
+@keyframes my-animation {
+    from {
+      
+      transform: translateX(100%);
+    }
+    to {
+     
+      transform: translateX(-100%);
+    }
+ }
+.fcontainer1 { 
+    display: flex;
+    align-items: center;
+    font-size: 5vh;
+    width: 80%;
+    justify-content: center;
+    border-bottom: 2px solid;
+    border-color: white;
+    padding: 4vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    
+}
+
+.contacts {
+    width: 100%;
+    padding: 3vh 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald" ;
+    
+    
+
+
+    
+    
+}
+
+.fcontainer1 > p {
+    padding-right: 5vw;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+ 
+ footer a {
+    text-decoration: none;
+    color: white;
+ }
+
+ 
+.fcontainer2 {
+    width: 50%;
+    font-size: 4vh;
+    
+}
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6vh;
+    padding-top: 2vh;
+    border-bottom:2px solid;
+    font-family: "Oswald" ;
+    
+}
+
+.Credits {
+    text-align: center;
+    padding: 3vh;
+}
